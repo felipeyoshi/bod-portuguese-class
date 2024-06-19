@@ -20,7 +20,7 @@ st.write("**Disclaimer:** This application uses AI to generate text and images. 
 
 st.sidebar.title("Create your own Narative!")
 chapters = st.sidebar.multiselect("Select your Plot", ["Introduction", "The Arrival", "The best places in Rio", "Lunch Break"], default=["Introduction"])
-artist = st.sidebar.selectbox("Inspired by", ["Realistic", "Tarsila do Amaral", "Candido Portinari", "Romero Britto", "Eduardo Kobra"])
+artist = st.sidebar.selectbox("Inspired by the style of", ["Realistic", "Tarsila do Amaral", "Candido Portinari", "Romero Britto", "Eduardo Kobra"])
 
 # Use Streamlit secrets for the OpenAI API key
 api_key = st.secrets["open_ai"]["api_key"]

@@ -15,12 +15,12 @@ def generate_chapter(title, prompt, artist, conversation, llm):
 
 # Streamlit UI
 st.title("GenAI Portuguese Tutor")
-st.write("What if we blend Portuguese Learning, Sightseeing Tips, and GenAI to create an immersive storytelling experience? Explore the beauty of Rio de Janeiro while learning Portuguese through engaging narratives and artistic visuals.")
+st.write("What if we could merge Portuguese lessons, travel tips, and GenAI into an unforgettable storytelling experience? Explore the vibrant culture of Brazil while learning Portuguese through captivating stories and visuals.")
 st.write("**Disclaimer:** This application uses AI to generate text and images. Please be aware that the content generated may not always be accurate or appropriate.")
 
 st.sidebar.title("Create your own Narative!")
-chapters = st.sidebar.multiselect("Write your Novel", ["Introduction", "The Arrival", "The best places in Rio", "Lunch Break"], default=["Introduction"])
-artist = st.sidebar.selectbox("Imagined by", ["Realistic", "Tarsila do Amaral", "Candido Portinari", "Romero Britto", "Eduardo Kobra"])
+chapters = st.sidebar.multiselect("Select your Plot", ["Introduction", "The Arrival", "The best places in Rio", "Lunch Break"], default=["Introduction"])
+artist = st.sidebar.selectbox("Inspired by", ["Realistic", "Tarsila do Amaral", "Candido Portinari", "Romero Britto", "Eduardo Kobra"])
 
 # Use Streamlit secrets for the OpenAI API key
 api_key = st.secrets["open_ai"]["api_key"]

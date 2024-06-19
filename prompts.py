@@ -1,0 +1,6 @@
+chapter_prompts = {
+    "Introduction": "Write an introduction for a story about John, an American AI Engineer, traveling to Rio de Janeiro to have fun and learn Portuguese.",
+    "The Arrival": "John arrives in Rio and needs to ask for directions to his hotel. Create a scene with a small talk in Portuguese with basic phrases he needs to learn as a Portuguese student. Always mark the portuguese phrases as bold style and translate to english.",
+    "The best places in Rio": "John checks in the hotel and asks for the best places to visit in Rio. Create a scene with a small talk in Portuguese with basic phrases he needs to learn as a Portuguese student. Always mark the portuguese phrases as bold style and translate to english.",
+    "Lunch Break": "John leaves the hotel but he is starving. It's time for lunch break! Create a scene with a small talk in Portuguese with basic phrases he needs to learn as a Portuguese student. Always mark the portuguese phrases as bold style and translate to english."
+}
